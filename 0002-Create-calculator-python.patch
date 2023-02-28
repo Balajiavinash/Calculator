@@ -1,0 +1,45 @@
+From 752cb07d7dd583b5d3c4523100dfc2d4d53b9865 Mon Sep 17 00:00:00 2001
+From: Balajiavinash <103402631+Balajiavinash@users.noreply.github.com>
+Date: Sat, 25 Feb 2023 15:39:52 +0530
+Subject: [PATCH 2/7] Create calculator python
+
+---
+ calculator python | 26 ++++++++++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+ create mode 100644 calculator python
+
+diff --git a/calculator python b/calculator python
+new file mode 100644
+index 0000000..14bfabc
+--- /dev/null
++++ b/calculator python	
+@@ -0,0 +1,26 @@
++# Define the main function to perform arithmetic operations
++def calculator():
++    # Prompt user for input and convert it to a float
++    num1 = float(input("Enter the first number: "))
++    num2 = float(input("Enter the second number: "))
++
++    # Prompt user for operation
++    operation = input("Enter the operation (+, -, *, /): ")
++
++    # Perform operation and print result
++    if operation == "+":
++        print(f"{num1} + {num2} = {num1 + num2}")
++    elif operation == "-":
++        print(f"{num1} - {num2} = {num1 - num2}")
++    elif operation == "*":
++        print(f"{num1} * {num2} = {num1 * num2}")
++    elif operation == "/":
++        if num2 == 0:
++            print("Error: division by zero")
++        else:
++            print(f"{num1} / {num2} = {num1 / num2}")
++    else:
++        print("Invalid operation")
++
++# Call the calculator function to run the program
++calculator()
+-- 
+2.38.1.windows.1
+

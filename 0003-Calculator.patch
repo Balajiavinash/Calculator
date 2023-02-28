@@ -1,0 +1,20 @@
+From 33bc713b6589c37c58896338c1c6dbdb7f0614bc Mon Sep 17 00:00:00 2001
+From: Balaji Avinash <balajiavinash7461@gmail.com>
+Date: Sat, 25 Feb 2023 15:42:42 +0530
+Subject: [PATCH 3/7] Calculator
+
+---
+ Balaji.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Balaji.py
+
+diff --git a/Balaji.py b/Balaji.py
+new file mode 100644
+index 0000000..2ee00dd
+--- /dev/null
++++ b/Balaji.py
+@@ -0,0 +1 @@
++print ("Hello world")
+-- 
+2.38.1.windows.1
+

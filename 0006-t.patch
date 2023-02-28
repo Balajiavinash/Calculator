@@ -1,0 +1,21 @@
+From 4691fb036716a2f3929d60363b93003a98830f60 Mon Sep 17 00:00:00 2001
+From: Balaji Avinash <balajiavinash7461@gmail.com>
+Date: Sat, 25 Feb 2023 16:13:13 +0530
+Subject: [PATCH 6/7] t
+
+---
+ q.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 q.py
+
+diff --git a/q.py b/q.py
+new file mode 100644
+index 0000000..5280564
+--- /dev/null
++++ b/q.py
+@@ -0,0 +1 @@
++print ("Hello")
+\ No newline at end of file
+-- 
+2.38.1.windows.1
+

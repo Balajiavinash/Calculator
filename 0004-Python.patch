@@ -1,0 +1,45 @@
+From 6c9a8772985347e02f427b32366e77997c411470 Mon Sep 17 00:00:00 2001
+From: Balaji Avinash <balajiavinash7461@gmail.com>
+Date: Sat, 25 Feb 2023 16:04:00 +0530
+Subject: [PATCH 4/7] Python
+
+---
+ Python.py | 26 ++++++++++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+ create mode 100644 Python.py
+
+diff --git a/Python.py b/Python.py
+new file mode 100644
+index 0000000..14bfabc
+--- /dev/null
++++ b/Python.py
+@@ -0,0 +1,26 @@
++# Define the main function to perform arithmetic operations
++def calculator():
++    # Prompt user for input and convert it to a float
++    num1 = float(input("Enter the first number: "))
++    num2 = float(input("Enter the second number: "))
++
++    # Prompt user for operation
++    operation = input("Enter the operation (+, -, *, /): ")
++
++    # Perform operation and print result
++    if operation == "+":
++        print(f"{num1} + {num2} = {num1 + num2}")
++    elif operation == "-":
++        print(f"{num1} - {num2} = {num1 - num2}")
++    elif operation == "*":
++        print(f"{num1} * {num2} = {num1 * num2}")
++    elif operation == "/":
++        if num2 == 0:
++            print("Error: division by zero")
++        else:
++            print(f"{num1} / {num2} = {num1 / num2}")
++    else:
++        print("Invalid operation")
++
++# Call the calculator function to run the program
++calculator()
+-- 
+2.38.1.windows.1
+

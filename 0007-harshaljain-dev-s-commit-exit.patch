@@ -1,0 +1,21 @@
+From 38dd836c0feecb4b5768e3fd2672955c2e173bb4 Mon Sep 17 00:00:00 2001
+From: harshaljain-dev <harshal.jain20@st.niituniversity.in>
+Date: Sat, 25 Feb 2023 16:16:46 +0530
+Subject: [PATCH 7/7] harshaljain-dev's commit:exit
+
+---
+ calc-hr.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 calc-hr.py
+
+diff --git a/calc-hr.py b/calc-hr.py
+new file mode 100644
+index 0000000..5086470
+--- /dev/null
++++ b/calc-hr.py
+@@ -0,0 +1 @@
++print("Hi")
+\ No newline at end of file
+-- 
+2.38.1.windows.1
+

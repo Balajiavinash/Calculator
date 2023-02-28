@@ -1,0 +1,20 @@
+From 9be3f5c09f861356f2bb99c5750c04d178c29fda Mon Sep 17 00:00:00 2001
+From: Balaji Avinash <balajiavinash7461@gmail.com>
+Date: Sat, 25 Feb 2023 16:04:27 +0530
+Subject: [PATCH 5/7] python
+
+---
+ Balaji.py | 1 -
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 Balaji.py
+
+diff --git a/Balaji.py b/Balaji.py
+deleted file mode 100644
+index 2ee00dd..0000000
+--- a/Balaji.py
++++ /dev/null
+@@ -1 +0,0 @@
+-print ("Hello world")
+-- 
+2.38.1.windows.1
+

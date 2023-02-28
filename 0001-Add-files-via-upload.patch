@@ -1,0 +1,42 @@
+From 291eba78cc72cc0f1a2c79dd9f4a3e49a476ef66 Mon Sep 17 00:00:00 2001
+From: varshithkonakanchi
+ <103957324+varshithkonakanchi@users.noreply.github.com>
+Date: Sat, 25 Feb 2023 15:27:01 +0530
+Subject: [PATCH 1/7] Add files via upload
+
+calculator_1
+---
+ cal_v1.py | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+ create mode 100644 cal_v1.py
+
+diff --git a/cal_v1.py b/cal_v1.py
+new file mode 100644
+index 0000000..6766e88
+--- /dev/null
++++ b/cal_v1.py
+@@ -0,0 +1,21 @@
++# -*- coding: utf-8 -*-
++"""
++Created on Sat Feb 25 15:15:05 2023
++
++@author: konak
++"""
++
++while True:
++    # Take input from the user
++    expression = input("Enter an arithmetic expression or 'q' to quit: ")
++
++    # Quit the program if the user enters 'q'
++    if expression == 'q':
++        break
++
++    # Evaluate the expression and output the result
++    try:
++        result = eval(expression)
++        print(f"Result: {result}")
++    except:
++        print("Invalid expression")
+-- 
+2.38.1.windows.1
+

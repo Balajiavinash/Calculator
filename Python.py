@@ -1,7 +1,7 @@
 # Define the main function to perform arithmetic operations
 def calculator():
     # Prompt user for input and convert it to a float
-    num1 = float(input("Enter the first number: "))
+    num1 = float(input("Enter the  number: "))
     num2 = float(input("Enter the second number: "))
 
     # Prompt user for operation
